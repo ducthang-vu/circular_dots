@@ -1,8 +1,8 @@
 /* GENERAL */
 html {
-    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
 }
-
 
 * {
     margin: 0;
@@ -12,6 +12,9 @@ html {
 
 body {
     font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    width: 100%;
+    background: #000;
 }
 
 button,
