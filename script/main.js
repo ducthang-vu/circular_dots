@@ -68,7 +68,7 @@ class Animation {
         }
 
         let ran = []
-            for (let j = 40; j <= 62; j++) ran.push(j * 2)
+        for (let j = 40; j <= 62; j++) ran.push(j * 2)
         for (let i = 0; i < dotsNumber; i++) {
             let color = ['#1C3FFF','#FF0AC3','#00FFE3','#FFCC26', '#3DFF0D'][Math.random() * 5 | 0]
             this.dots.push(
