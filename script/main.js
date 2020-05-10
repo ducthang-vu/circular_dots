@@ -25,7 +25,7 @@ class circleDot {
             x: this.x + this.radius * Math.cos(this.angle),
             y: this.y + this.radius * Math.sin(this.angle)
         }
-        this.width = 2// [2, 2.5, 3, 3.5, 4][Math.random() * 5 | 0]
+        this.width = 3
     }
 
     makePath() {
@@ -56,6 +56,7 @@ class circleDot {
         c.stroke()
     }
 }
+
 
 class Animation {
     constructor(dotsNumber, maxTranslateSpeed) {
@@ -92,10 +93,7 @@ class Animation {
             let distanceY = (this.center.y - dot.y)
             let distance = ((distanceX**2 + distanceY**2)**0.5)
             
-            let step = this.translateSpeed
-            if (step > distance) {
-                step = this.translateSpeed / 25
-            }
+            let step = Math.min(this.translateSpeed, distance / 30)
 
             if (distance) {
                 let ratio = step / distance
@@ -108,18 +106,6 @@ class Animation {
                 if (Math.abs(movY) > Math.abs(distanceY)) dot.y = this.center.y
                 else dot.y += distanceY * ratio
             }
-            
-
-            /*
-            if (distance > 0 && distance <= this.MaxTranslateSpeed) {
-                dot.x = this.center.x
-                dot.y = this.center.y
-            } else if (distance > this.translateSpeed) {
-                let ratio = this.translateSpeed / distance
-                dot.x += distanceX * ratio
-                dot.y += distanceY * ratio
-            }
-            */
         }
     }
 
