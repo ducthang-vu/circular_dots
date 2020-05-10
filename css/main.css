@@ -14,8 +14,8 @@ body {
     font-family: 'Roboto Mono', monospace;
     height: 100%;
     width: 100%;
-    background: #000;
-}
+    /*background: #000
+*/}
 
 button,
 button:focus,
@@ -88,4 +88,9 @@ label {
 
 .in-block {
     display: inline-block;
+}
+
+/* CANVAS */
+#canvas {
+    background: #000;
 }
