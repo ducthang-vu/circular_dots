@@ -67,9 +67,10 @@ class Animation {
             y: canvas.height / 2
         }
 
+        let ran = []
+            for (let j = 40; j <= 62; j++) ran.push(j * 2)
         for (let i = 0; i < dotsNumber; i++) {
             let color = ['#1C3FFF','#FF0AC3','#00FFE3','#FFCC26', '#3DFF0D'][Math.random() * 5 | 0]
-            let ran = [80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124]
             this.dots.push(
                 new circleDot(canvas.width / 2, canvas.height / 2, ran[Math.random()*ran.length | 0], color)
             )
