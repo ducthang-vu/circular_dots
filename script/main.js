@@ -1,5 +1,3 @@
-console.log('main.js is working')
-
 canvas = document.getElementById('canvas')
 c = canvas.getContext('2d')
 
@@ -133,5 +131,5 @@ class Animation {
     }
 }
 
-animation = new Animation(50, 5)
+let animation = new Animation(50, 5)
 animation.start()
