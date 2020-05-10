@@ -1,7 +1,7 @@
 # ANIMATED CIRCLES
 ANIMATED CIRCLES is a simple and interactive canvas built with HTML, CSS, and (vanilla) JavaScript.
 
- ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ <img src="assets/img/preview.png" width= "700px">
+ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ <img src="img/preview.png" width= "700px">
 
 ## Feature
 On page load, 50 dots will be spawned. They will be moving in circular motion with an angular velocity of 0.05 radiants. The center of rotation is the same for all dots.
