@@ -1,5 +1,5 @@
-# ANIMATED CIRCLES
-ANIMATED CIRCLES is a simple and interactive canvas built with HTML, CSS, and (vanilla) JavaScript.
+# CIRCULAR_DOTS
+CIRCULAR_DOTS is a simple and interactive canvas built with HTML, CSS, and (vanilla) JavaScript.
 
  ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ <img src="img/preview.png" width= "700px">
 
