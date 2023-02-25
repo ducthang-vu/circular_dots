@@ -1,6 +1,8 @@
 # CIRCULAR_DOTS
 CIRCULAR_DOTS is a simple and interactive canvas built with HTML, CSS, and (vanilla) JavaScript.
 
+Try it [here](https://ducthang-vu.github.io/circular_dots/).
+
  ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ ​ <img src="img/preview.png" width= "700px">
 
 ## Feature
